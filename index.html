@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Simple To-Do List</title>
+  <link rel="stylesheet" href="css/style.min.css">
+</head>
+<body>
+  <!-- !Header -->
+  <header class="header">
+  <div class="container">
+    <div class="header__inner">
+      <a class="logo" href="#"><img src="./images/logo.svg" alt="Logo"></a>
+      <a class="header__btn" href="#">sign in</a>
+    </div>
+    <div class="header__content">
+      <div class="header__content-box">
+        <h1 class="header__content-title">All you need is simple to-do lists. Perfect for your daily tasks.</h1>
+        <button class="header__content-btn">Create a To-Do List</button>
+        <span class="header__content-notice">No sign up required</span>
+      </div>
+      <img class="header__content-img" src="./images/hero.svg" alt="hero.svg">
+    </div>
+  </div>
+</header>
+  <div class="wrapper">
+    <main class="main">
+      <!-- !Sections -->
+      <!-- !Benefits -->
+<section class="section__benefits">
+  <h2 class="section__title">Our benefits</h2>
+  <div class="container">
+    <div class="benefits">
+      <ul class="benefits__list">
+        <li class="benefits__list-item">
+          <img class="benefits-list-icon" src="./images/check.svg" alt="Check Icon">
+          <div class="benefits__list-box">
+            <h3 class="benefits__list-title">No sign up. Nothing to install.</h3>
+            <p class="benefits__list-descr">
+              Only sign up if you want to save more than one list.
+            </p>
+          </div>
+        </li>
+        <li class="benefits__list-item">
+          <img class="benefits-list-icon" src="./images/check.svg" alt="Check Icon">
+          <div class="benefits__list-box">
+            <h3 class="benefits__list-title">Access from any device.</h3>
+            <p class="benefits__list-descr">
+              Browser based so your lists are always synced and you can access them from
+              anywhere.
+            </p>
+          </div>
+        </li>
+        <li class="benefits__list-item">
+          <img class="benefits-list-icon" src="./images/check.svg" alt="Check Icon">
+          <div class="benefits__list-box">
+            <h3 class="benefits__list-title">Easy to use</h3>
+            <p class="benefits__list-descr">
+              Simple and easy to use, with no barriers to getting started.
+            </p>
+          </div>
+        </li>
+        <li class="benefits__list-item">
+          <img class="benefits-list-icon" src="./images/check.svg" alt="Check Icon">
+          <div class="benefits__list-box">
+            <h3 class="benefits__list-title">Auto-saving</h3>
+            <p class="benefits__list-descr">
+              You don't have to worry anymore, you can start where you left off.
+            </p>
+          </div>
+        </li>
+      </ul>
+    </div>
+  </div>
+</section>
+      <!-- !To-Do List -->
+<section class="section__todo">
+  <h2 class="section__title">Your To-Do List</h2>
+  <div class="container">
+    <div class="todo">
+      <h3 class="todo__title">Your to-do list for today:</h3>
+      <div class="todo__inner">
+        <ul class="new-tasks">
+          
+        </ul>
+      <img class="todo__img" src="./images/todo.svg" alt="To-Do Image">
+        <div class="todo__tasks" id="todo-tasks">
+          <div class="todo__tasks-header">
+            <h3 class="todo__tasks-title">Add a new task</h3>
+          </div>
+          <div class="todo__tasks-body">
+            <ul class="todo__list">
+              <li class="todo__list-item">
+                <label class="todo__list-label">
+                  <input class="todo__list-input" type="text" placeholder="e.g. Take out the bins">
+                </label>
+              </li>
+            </ul>
+            <button class="todo__tasks-btn">Add</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="btn-box">
+      <button class="btn-remove">Delete completed tasks</button>
+      <button class="btn-remove" data-remove-all-tasks>Delete all tasks</button>
+    </div>
+  </div>
+</section>
+    </main>
+    <!-- !Footer -->
+    <footer class="footer">
+  <div class="container">
+    <div class="footer__inner">
+      <div class="footer__item">
+        <a class="logo" href="#"><img src="./images/logo.svg" alt="Logo"></a>
+        <h2 class="footer__title">
+          Follow us
+        </h2>
+        <ul class="footer__social">
+          <li class="footer__social-item">
+            <a class="footer__social-link" href="https://github.com/RolanMurad"><img class="footer__social-img" src="./images/git.svg"
+                alt="Git Hub Icon"></a>
+          </li>
+          <li class="footer__social-item">
+            <a class="footer__social-link" href="https://t.me/Rolan_Murad"><img class="footer__social-img" src="./images/teleg.svg"
+                alt="Telegram Icon"></a>
+          </li>
+          <li class="footer__social-item">
+            <a class="footer__social-link" href="#"><img class="footer__social-img" src="./images/inst.svg"
+                alt="Instagram Icon"></a>
+          </li>
+        </ul>
+      </div>
+
+      <nav class="nav">
+        <h2 class="footer__title">Contact</h2>
+        <ul class="nav__list">
+          <li class="nav__list-item">
+            <a class="nav__list-link" href="mailto:rolanmuraddeveloper@gmail.com">rolanmuraddeveloper@gmail.com</a>
+          </li>
+        </ul>
+        <h2 class="footer__title">Help</h2>
+        <ul class="help__list">
+          <li class="help__list-item"><a class="help__list-link" href="#">Terms & condition</a></li>
+          <li class="help__list-item"><a class="help__list-link" href="#">Privacy Policy</a></li>
+          <li class="help__list-item"><a class="help__list-link" href="#">Cookies</a></li>
+        </ul>
+      </nav>
+    </div>
+  </div>
+</footer>
+  </div>
+  <script src="./js/main.js"></script>
+</body>
+</html>
