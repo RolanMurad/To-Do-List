@@ -477,6 +477,7 @@ body {
 
 .new-task__text {
   overflow-x: auto;
+  padding-right:10px;
 }
 
 .footer {
